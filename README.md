@@ -1,5 +1,5 @@
 # semiautomated_annotation
-A semi-automated system prototype that annotates electrodermal activity data.
+A semi-automated system prototype that annotates skin conductance data.
 
 ![annotation_demo](https://user-images.githubusercontent.com/70129680/182296665-e576958a-582b-4192-b34b-8b282089e593.gif)
 
