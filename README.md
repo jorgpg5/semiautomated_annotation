@@ -1,6 +1,8 @@
 # semiautomated_annotation
 A semi-automated system prototype that annotates electrodermal activity data.
 
+![image](https://user-images.githubusercontent.com/70129680/182294790-e0653fd7-6b63-46b7-931d-ddaa3ef6a845.png)
+
 # Installation and setup
 
 To install this software, we'll need Anaconda and Git. If you already have them, you can skip to the Setup section.
@@ -17,7 +19,8 @@ Please download and install [Git](https://git-scm.com/downloads)
 Go to the folder where you want save the interface software. Open a git bash (right click on the folder and select Git Bash here)
 ![image](https://user-images.githubusercontent.com/70129680/182267804-5e0ee31f-08a1-4f18-a833-ebb2b297d5fe.png)
 
-We will clone this repo. Copy the location of this repo 
+We will clone this repo. Copy the location of this repo: \
+
 ![image](https://user-images.githubusercontent.com/70129680/182267909-9d469508-eb72-4768-8b1e-d04db9fa9b85.png)
 
 Use the next command:
@@ -38,10 +41,34 @@ The virtual environment that hosts the annotation interface should be ready afte
 
 When the installation of the virtual environment has finished, run the next commands:
 
-**conda activate annot_interface**
+**conda activate annot_interface** \
 **voila semiautomated_annotation_prototype.ipynb**
 
 Voila! (pun intended as we used a library called Voila :P) your interface is ready to use.
 
 # User guide
 
+**Note: Before you run the interface, you need to double-check a couple of things.**
+
+**1.- Check that the folder structure is the same as the repo.** \
+**2.- Check that you have the .m files in the dataset folder. If you have the .acq files, you'll need to use AcqKnowledge to convert the .acq files into .m files.**
+
+To run the interface, go to the folder where you cloned this repo. 
+
+Enter the following commands:
+
+**conda activate annot_interface** \
+**voila semiautomated_annotation_prototype.ipynb**
+
+The last command will open a browser where the interface is hosted.
+
+- Enter the name of the file that you want to analyse (without the extension type, i.e. Acq_P301). If the file is not in the dataset folder, the interface will ask you to verify the filename. 
+- Wait a few seconds while the data is preprocessed. Then Click on the "Start Annotation" button.
+- The interface will be loaded. To annotate, click and drag the markers on the chart. If you're not happy with the annotation or just want to start over, click on the  "Reset" button.
+- To visualise a preview of the data that will be saved, click on "Visualise Annotation". 
+- Click on "Next" or "Prev" to change events. The data will be saved on the fly. When these buttons are pressed, the annotatiosn will be saved in the "annotated_data" folder. To make sure that all the data has been annotated, please go through the all events in that file. 
+
+**Troubleshooting:**
+
+**- If something goes wrong, just refresh the page and the interface will start from the beginning.** \
+**- If you open the annotated file located in the "annotated_data" folder, please close the csv file before making more annotations. By not doing so, the interface will have issues as it won't be able to write the data into the csv file.**
