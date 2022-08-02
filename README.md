@@ -5,7 +5,7 @@ A semi-automated system prototype that annotates electrodermal activity data.
 
 # Installation and setup
 
-To install this software, we'll need Anaconda and Git. If you already have them, you can skip to the Setup section.
+To install this software, we'll need Anaconda and Git. If you already have them, you can skip to the **User Guide** section.
 
 Please download and install [Anaconda](https://www.anaconda.com/products/distribution). Please do not check or uncheck any installation options. 
 
@@ -31,7 +31,7 @@ Then, we will open an anaconda prompt. Type "anaconda prompt" on the windows sea
 
 ![image](https://user-images.githubusercontent.com/70129680/182268122-659eb2b1-66e3-4946-919e-689ea0379720.png)
 
-We will install the interface by using the yml in the repo. 
+We will install the interface by using the yml file in the repo. 
 
 In the anaconda prompt, go to the folder where you cloned this repo with Git. Run the next command:
 
