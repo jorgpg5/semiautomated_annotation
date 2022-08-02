@@ -1,7 +1,7 @@
 # semiautomated_annotation
 A semi-automated system prototype that annotates electrodermal activity data.
 
-![image](https://user-images.githubusercontent.com/70129680/182294790-e0653fd7-6b63-46b7-931d-ddaa3ef6a845.png)
+![annotation_demo](https://user-images.githubusercontent.com/70129680/182296665-e576958a-582b-4192-b34b-8b282089e593.gif)
 
 # Installation and setup
 
