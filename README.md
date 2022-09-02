@@ -33,9 +33,20 @@ Then, we will open an anaconda prompt. Type "anaconda prompt" on the windows sea
 
 We will install the interface by using the yml file in the repo.
 
-In the anaconda prompt, go to the folder where you cloned this repo with Git. Run the next command:
+In the anaconda prompt, go to the folder where you cloned this repo with Git.
+
+### For Windows
+
+Run the next command for **windows**:
 
 **conda env create -f environment.yml**
+
+### For MacOS
+
+Run the next command for **MacOS**:
+
+**conda env create -f environment_mac.yml**
+
 
 The virtual environment that hosts the annotation interface should be ready after a few minutes.
 
