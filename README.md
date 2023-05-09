@@ -62,7 +62,7 @@ Voila! (pun intended as we used a library called Voila :P) your interface is rea
 **Note: Before you run the interface, you need to double-check a couple of things.**
 
 **1.- Check that the folder structure is the same as the repo.** \
-**2.- Check that you have the .m files in the dataset folder. If you have the .acq files, you'll need to use AcqKnowledge to convert the .acq files into .m files.**
+**2.- Check that you have the .m files in the dataset folder. If you have the .acq files, you'll need to use AcqKnowledge to convert the .acq files into .mat files.**
 
 To run the interface, go to the folder where you cloned this repo.
 
